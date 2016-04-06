@@ -44,10 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMDBMovie.cs" />
-    <Compile Include="IMDBMovieSearchResult.cs" />
-    <Compile Include="IMDBMovieSearchResultItem.cs" />
-    <Compile Include="IMDBNet.cs" />
+    <Compile Include="IMDBNet\IMDBMovie.cs" />
+    <Compile Include="IMDBNet\IMDBMovieSearchResult.cs" />
+    <Compile Include="IMDBNet\IMDBMovieSearchResultItem.cs" />
+    <Compile Include="IMDBNet\IMDBMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

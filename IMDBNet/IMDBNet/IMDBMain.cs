@@ -12,12 +12,12 @@ namespace IMDBNet
         }
         public static IMDBMovie GetIMDBMovieFromID(string id)
         {
-            IMDBMovie movie = DeserializeIMDBMovie(GetIMDBMovieDataFromID(id))
+            IMDBMovie movie = DeserializeIMDBMovie(GetIMDBMovieDataFromID(id));
             return movie;
         }
         public static IMDBMovieSearchResult SearchIMDBMovie(string title, int page)
         {
-            IMDBMovieSearchResult movie = DeserializeIMDBMovieSearchResult(SearchForTitle(title, page));
+            IMDBMovieSearchResult movie = DeserializeIMDBMovieSearchResult(GetDataFromOMDB("s=" + title + "&page=" + page));
             return movie;
         }
 
