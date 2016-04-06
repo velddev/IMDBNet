@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IMDBNet</id>
+    <version>0.1.1</version>
+    <title>IMDBNet</title>
+    <authors>velddev</authors>
+    <owners>velddev</owners>
+    <projectUrl>https://github.com/velddev/IMDBNet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# Library for omdbapi</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>C# OpenIMDB</tags>
+	<dependencies>
+		<dependency id="Newtonsoft.Json" version="8.0.3"/>
+	</dependencies>
+  </metadata>
+</package>
