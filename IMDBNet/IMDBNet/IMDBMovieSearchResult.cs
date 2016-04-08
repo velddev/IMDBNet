@@ -6,6 +6,7 @@ namespace IMDBNet
     {
         public List<IMDBMovieSearchResultItem> search = new List<IMDBMovieSearchResultItem>();
         public int totalResults;
+
         public bool response;
         public string error;
     }
